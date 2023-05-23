@@ -1,0 +1,9 @@
+name: GTM WORKFLOW
+on: push
+jobs:
+  first_gtm_job:
+    name: First GTM Job
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Getting started with GTM workflows"
+  
